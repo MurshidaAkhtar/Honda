@@ -1,0 +1,198 @@
+/* =======google-font======== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* ----------------Common useable components============= */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-honda-cbr{
+    padding:10px 30px;
+    background:#E76F51;
+    border:1px solid #E76F51; 
+    width: 168px;
+    height: 44px;
+    color:#fff;
+    transition: .3s;
+}
+.btn-honda-cbr:hover{
+    border:1px solid #E76F51;
+    background-color: transparent;
+    color:#E76F51;
+}
+.btn-honda-cbr-outline{
+    border:1px solid #E76F51;
+    background-color: #fff; 
+    width: 160px;
+    height: 57px;
+    padding: 15px;
+    color:#E76F51;
+    transition: .3s;
+    
+}
+.btn-honda-cbr-outline:hover,.active{
+    color:#fff;
+    background-color: #E76F51;
+}
+.section-title h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.section-title p{
+    font-size: 14px;
+    position: relative;
+}
+/* =========header section============ */
+header{
+    color:#fff; 
+}
+.honda-bg{
+   background: #264653; 
+}
+.navbar-honda{
+    background: transparent!important;
+}
+.btn-login{
+    padding:10px 17px!important;
+    background:#E76F51;
+    border:1px solid #E76F51; 
+    width: auto!important;
+    height: auto;
+    color:#fff;
+}
+.nav-link{
+    color: #fff !important;
+}
+.hero-text span{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color:#fff;
+    
+}
+.header-title{
+    font-size: 48px;
+    font-weight: 600;  
+}
+.hero-text p{
+    color:#E0E0E0;
+    font-weight: 300;
+    font-size: 16px;
+}
+/* ========================fetured-bikes======================= */ 
+.section-title p:before{
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 46%;
+    height: 2px;
+    width: 80px;
+    background-color: red;
+}
+.gray-honda{
+    filter: grayscale(90%);
+}
+/* ===============latest-news=================== */
+.single-news h3{
+    font-size: 26px;
+}
+.single-news p{
+    color:#6C6C6C;
+    line-height: 32px;
+    font-size: 15px;
+}
+/* ===============happy-clients-says section=================== */
+.text-orange{
+    color:#E76F51;
+}
+.single-client .user-image{
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+}
+.single-client p{
+    color:#6C6C6C;
+    font-weight: 400;
+    line-height:26px;
+    font-size: 16px;
+}
+.single-client h5, .single-clienth6{
+    font-size: 14px;
+}
+/* =============faq-section===================*/
+.faq-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+.faq-ans{
+    font-size: 16px;
+    color:#7E848C;
+    line-height: 28px;
+}
+.accordion-button:not(.collapsed) {
+    color: #000!important; 
+}
+/* =============upcomming-honda=============== */
+.upcomming-honda h2{
+    font-size: 48px;
+} 
+
+/* =============footer-section=============== */
+.footer-section{
+    background: #0B0D17;
+    color:#fff
+} 
+.footer-section a{
+    color:#fff;
+    text-decoration: none;
+}
+.footer-section li{
+    list-style: none;
+}
+.footer-menu ul li a:hover{
+    color: #e76f51!important;;
+}
+
+/* =================================medai quiery====================== */
+@media screen and (max-width:992px){
+    .btn-login{
+        margin-left: 0!important;
+        width: 100px  !important;
+        margin-top: 15px!important;
+    }
+    .navbar-toggler{
+       margin-left: 85%!important;
+       margin-right: 60px!important;
+    }
+}
+@media screen and (max-width:660px){ 
+     
+    .header-image img{
+        margin-top: 40px;
+    }
+    .section-title p:before{
+        position: absolute;
+        content: "";
+        top: 100%;
+        left: 38%; 
+    }
+    .apps{
+        text-align: left!important; 
+    }
+    .apps img{
+        margin-left: 0!important;
+    }
+    .single-news{
+        margin-bottom: 30px;
+    }
+    .single-client{
+        margin-bottom: 30px;
+    }
+    .faq-img,.contact-img{
+        margin-bottom: 30px;
+    }
+    .bike-image{
+        margin-top: 30px;
+    }
+   
+}
